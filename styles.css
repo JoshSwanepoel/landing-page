@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "MyCustomFont";
+    src: url("./fonts/Roboto-Regular.ttf");
+  }
+
+  body {
+    font-family: "MyCustomFont", sans-serif;
+  }
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+    align-items: center;
+}
+
+.second-layer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #1f2937;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    color: #f9faf8;
+}
+
+.modal-header {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #f9faf8;
+    font-weight: bold;
+    width: 100px;
+}
+
+.placeholder {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    color: #f9faf8;
+    margin-left: 50px;
+}
+
+.dark-blue {
+    background-color: #1f2937;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+body {
+    margin: 0;
+}
