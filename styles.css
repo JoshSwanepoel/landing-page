@@ -154,3 +154,36 @@ body {
     color: #1f2937;
     font-weight: bold;
 }
+
+.white-second {
+    padding: 80px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    width: 800px;
+    height: 150px;
+    justify-self: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #f9faf8;
+}
+
+.call-button {
+    height: 30px;
+    border-color: #f9faf8;
+    border-style: solid;
+    background: none;
+    width: 100px;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.call-header {
+    font-size: 20px;
+    font-weight: bold;
+}
